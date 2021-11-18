@@ -49,3 +49,4 @@ exclude:
   - Gemfile.lock
   - docker-compose.yml
   - README.md
+  - .idea/
