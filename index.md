@@ -1,8 +1,6 @@
 ---
-layout: custom
-
+layout: splash
+header:
+    overlay_image: /assets/images/bg.jpg
+excerpt: "Elemwave specialises in electromagnetic simulations"
 ---
-
-<img src="./assets/logo/elemwave.png" alt="Elemwave" width="250" />
-
-<p style="text-align: center"><i>Under construction</i></p>
