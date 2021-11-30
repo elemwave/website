@@ -19,8 +19,16 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Elemwave
-copyright_year: 2021
+
+company: Elemwave S.L.
+address: Camino de Ronda 150 5H
+cp: 18003
+city: Granada
+country: Spain
+phone: +44 203 289 1024
 email: info@elemwave.com
+
+copyright_year: 2021
 description: Elemwave specialises in electromagnetic simulations
 logo: /assets/logo/elemwave.png
 
