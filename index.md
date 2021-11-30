@@ -40,8 +40,10 @@ staff:
 
 {% include staff_block %}
 
-<div id="contact" class="text-center">
-    <h1>{{ site.company }}</h1>
+<div id="contact" class="text-center"> 
+    <div style="width: 250px; margin: 0 auto 30px">
+        <img src="assets/logo/elemwave.png" alt="{{ site.company }}" title="{{ site.company }}">
+    </div>
     <div>{{ site.address }}</div>
     <div>{{ site.cp }} - {{ site.city }} (<span>{{ site.country }}</span>)</div>
     <div>Tel. <a href="tel:{{ site.phone }}" target="_blank" rel="nofollow noreferrer">{{ site.phone }}</a></div>
