@@ -1,0 +1,16 @@
+<!-- https://github.com/mmistakes/minimal-mistakes/blob/master/_includes/page__hero.html -->
+
+<div class="page__hero--overlay home_hero" style="background: {{ page.header.overlay_color | default: 'white' }}">
+    <div class="background_media" style="{% if page.header.image %}background-image: url('{{page.header.image}}'){% endif %}">
+        {% if page.header.video %}
+        <video autoplay muted loop id="waves">
+            <source src="{{ page.header.video }}" type="video/mp4">
+        </video>
+        {% endif %}
+    </div>
+    <div class="wrapper description">
+        <p class="page__lead">
+            {{ site.description }}
+        </p>
+    </div>
+</div>
