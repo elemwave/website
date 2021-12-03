@@ -1,10 +1,10 @@
 <!-- https://github.com/mmistakes/minimal-mistakes/blob/master/_includes/page__hero.html -->
 
 <div class="page__hero--overlay home_hero" style="background: {{ page.header.overlay_color | default: 'white' }}">
-    <div class="background_media" style="{% if page.header.image %}background-image: url('{{page.header.image}}'){% endif %}">
+    <div class="background_media" style="{% if page.header.image %}background-image: url('{{page.header.image | relative_url}}'){% endif %}">
         {% if page.header.video %}
         <video autoplay muted loop id="waves">
-            <source src="{{ page.header.video }}" type="video/mp4">
+            <source src="{{ page.header.video | relative_url }}" type="video/mp4">
         </video>
         {% endif %}
     </div>
