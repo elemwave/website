@@ -63,3 +63,7 @@ In case you want to add a blog section into the site:
 ### Deployment of the web page
 
 - Here is the [documentation](/Docs/pagedeployment.md) about the deployment of the page on GitHub pages.
+
+### How we developed the project
+
+- Here is the [documentation](/Docs/workflow.md) about how we work in the project during development.
