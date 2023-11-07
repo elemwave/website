@@ -59,3 +59,7 @@ In case you want to add a blog section into the site:
 [Jekyll](https://jekyllrb.com/docs/posts/) and [minimal-mistakes](https://mmistakes.github.io/minimal-mistakes/docs/layouts/) docs.
 4. At `_config.yml`, set up your `permalink` var as you want - [more info](https://jekyllrb.com/docs/permalinks/).
 5. At `_config.yml`, set `atom_feed.hide` to `false`.
+
+### Deployment of the web page
+
+- Here is the [documentation](/Docs/pagedeployment.md) about the deployment of the page on GitHub pages.
