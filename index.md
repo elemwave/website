@@ -1,7 +1,7 @@
 ---
 layout: splash
+permalink: /index.html
 header:  
-    #image: /assets/images/bg.jpg
     video: /assets/images/waves.mp4
     overlay_color: "rgba(63, 108, 152, 1)"
 intro:
@@ -37,7 +37,6 @@ staff:
 ---
 
 {% include feature_row id="intro" type="center" %}
-
 {% include staff_block %}
 
 <div id="contact" class="text-center"> 
@@ -49,4 +48,3 @@ staff:
     <div>Tel. <a href="tel:{{ site.phone }}" target="_blank" rel="nofollow noreferrer">{{ site.phone }}</a></div>
     <a href="mailto:{{ site.email }}" target="_blank" rel="nofollow noreferrer">{{ site.email }}</a>
 </div>
-
