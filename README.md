@@ -67,3 +67,11 @@ In case you want to add a blog section into the site:
 ### How we developed the project
 
 - Here is the [documentation](/Docs/workflow.md) about how we work in the project during development.
+
+## How to use Jekyll Includes
+
+- Here is the [documentation](/Docs/includesjekyll.md) about how to use the Jekyll Includes.
+
+## How to use custom CSS
+
+- Here is the [documentation](/Docs/customCSS.md) about how a custom CSS can be used in the project.
