@@ -18,6 +18,6 @@ In this case staff, name and description are the variables used in our block.
 
  ![Variables from MD file](/assets/docImages/variableMD.png)
 
-When we already have our block ready to use, you have to add this line in your Mark Dawn page to be able to use it "{% include "File name" %}" in the end of the file.
+When we already have our block ready to use, you have to add this line at the end of your Mark Dawn page using your file name (staff_block is the example) to be able to use it.
 
  ![Code line to add the block configuration to a MD file](/assets/docImages/lineBlock.png)
