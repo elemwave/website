@@ -10,29 +10,14 @@ intro:
 
 {% include feature_row id="intro" type="center" %}
 
-<p>Here we can put a little introducion.Here we can put a little introducion.Here we can put a little introducion.Here we can put a little introducion.Here we can put a little introducion.Here we can put a little introducion.Here we can put a little introducion.Here we can put a little introducion.Here we can put a little introducion.Here we can put a little introducion.Here we can put a little introducion.</p>
-
-<link rel="stylesheet" href="./assets/services.css">
+<link rel="stylesheet" href="./assets/custom.css">
 
 <div class="img-container"></div>
 <br>
-<div class="container-center">
-<h1>WHAT DO WE OFFER YOU? </h1>
-</div>
 <hr>
-<div class="list-container">
-  <ul> 
-    <li class="list-element">SERVICE 1</li>
-    <li class="list-element">SERVICE 2</li>
-    <li class="list-element">SERVICE 3</li>
-  </ul>
-
-</div>
 <div>
-  <h2> Service 1 </h2>
-  <p> Here will be a description about the service, Here will be a description about the service Here will be a description about the service Here will be a description about the service Here will be a description about the service Here will be a description about the service Here will be a description about the service Here will be a description about the service Here will be a description about the service Here will be a description about the service Here will be a description about the serviceHere will be a description about the service</p>
-    <h2> Service 2 </h2>
-  <p> Here will be a description about the service, Here will be a description about the service Here will be a description about the service Here will be a description about the service Here will be a description about the service Here will be a description about the service Here will be a description about the service Here will be a description about the service Here will be a description about the service Here will be a description about the service Here will be a description about the serviceHere will be a description about the service</p>
-    <h2> Service 3 </h2>
-  <p> Here will be a description about the service, Here will be a description about the service Here will be a description about the service Here will be a description about the service Here will be a description about the service Here will be a description about the service Here will be a description about the service Here will be a description about the service Here will be a description about the service Here will be a description about the service Here will be a description about the serviceHere will be a description about the service</p>
+  <h2> Computational Electromagnetics </h2>
+  <p> Elemwave specializes in computational electromagnetics, translating the physical problem into a software solution. We can develop custom solutions for highly demanding problems in which traditional commercial software fails. We can also facilitate the integration of existing software tools into CAD software, facilitating its use and reducing the training required by engineers.</p>
+  <h2> EM, EMC & RF Engineering </h2>
+  <p> We can provide solutions for electromagnetic (EM), electromagnetic compatibility (EMC), and radiofrequency (RF) problems. We perform a holistic approach which deviates from standard specialized solutions. This includes the identification of the relevant parameters, the modeling of the problem, and proposing solutions to overcome them.</p>
 </div>
