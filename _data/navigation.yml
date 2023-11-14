@@ -7,10 +7,3 @@ main:
     url: '/index.html'
   - title: "Contact us"
     url: '#contact'
-docs:
-  - title: "List of projects"
-    children:
-      - title: "Project 1"
-        urL: '#project1'
-      - title: "Project 2"
-        urL: '#project2'
