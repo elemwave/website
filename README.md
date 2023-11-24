@@ -68,6 +68,10 @@ In case you want to add a blog section into the site:
 
 - Here is the [documentation](/Docs/workflow.md) about how we work in the project during development.
 
+## How to add more content
+
+- - Here is the [documentation](/Docs/addContent.md) about how to add more content to the website.
+
 ## How to use Jekyll Includes
 
 - Here is the [documentation](/Docs/includesjekyll.md) about how to use the Jekyll Includes.
@@ -75,3 +79,7 @@ In case you want to add a blog section into the site:
 ## How to use custom CSS
 
 - Here is the [documentation](/Docs/customCSS.md) about how a custom CSS can be used in the project.
+
+## How to update the gems and fix vulnerabilities
+
+- Here is the [documentation](/Docs/updategems.md) about how you can update the gems in the [gemfile.lock](/Gemfile.lock) file.
