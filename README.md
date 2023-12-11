@@ -12,6 +12,8 @@ docker-compose up
 
 And navigate to [http://0.0.0.0:4000](http://0.0.0.0:4000)
 
+Docker documentation [here](https://docs.docker.com/)
+
 ### Theme
 
 The site uses a **remote theme** called `minimal-mistakes`.
@@ -70,7 +72,7 @@ In case you want to add a blog section into the site:
 
 ## How to add more content
 
-- - Here is the [documentation](/Docs/addContent.md) about how to add more content to the website.
+- Here is the [documentation](/Docs/addContent.md) about how to add more content to the website.
 
 ## How to use Jekyll Includes
 
