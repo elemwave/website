@@ -31,7 +31,7 @@ email: info@elemwave.com
 
 copyright_year: 2021
 description: Elemwave specialises in electromagnetic simulations
-logo: /assets/logo/elemwave.png
+logo: /assets/logo/elemwave.webp
 
 permalink: /blog/:year/:month/:day/:title
 

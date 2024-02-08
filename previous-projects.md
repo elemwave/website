@@ -17,11 +17,11 @@ intro:
    <p class="text">Elemwave has developed a propietary tool, the workbench, to help with the definition of electromagnetic problems. Currently it integrates a CAD program, meshers, and different solvers. The tool can be easily extended to include other solvers and has scripting capabilities to automatize some procedures.
   </p>
   <div class="">
-      <img class="img-pr" src="assets/images/grid.png" alt="Elemwave workbench grid definition"/>
+      <img class="img-pr" src="assets/images/grid.webp" alt="Elemwave workbench grid definition"/>
       <br>
       <div class="img-cap"> View of a grid definition for an FDTD problem.</div>
       <br>
-      <img class="img-pr" src="assets/images/farfield.png" alt="Elemwave workbench far field definition"/>
+      <img class="img-pr" src="assets/images/farfield.webp" alt="Elemwave workbench far field definition"/>
       <br>
       <div class="img-cap"> View of a far field request definition for an FDTD problem.</div>
   </div>
