@@ -2,6 +2,9 @@
     --color: #0f477e;
     --circle: 150px;
 }
+.greedy-nav a, .text a {
+    color: #11579C;
+}
 .home_hero {
     display: flex;
     flex-direction: column;
@@ -91,6 +94,9 @@
 }
 .text{
     margin-top: 20px;
+    a:hover {
+        color: blue;
+    }
 }
 .img-container{
     background-image: url("/assets/images/services.webp");
