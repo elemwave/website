@@ -3,7 +3,7 @@
     --links-color: #10508E;
     --circle: 150px;
 }
-.greedy-nav a, .text a {
+.greedy-nav a, .text a, a{
     color: var(--links-color);
 }
 .home_hero {
