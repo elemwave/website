@@ -1,9 +1,10 @@
 :root {
-    --color: #0f477e;
+    --border-color: #0f477e;
+    --links-color: #10508E;
     --circle: 150px;
 }
 .greedy-nav a, .text a {
-    color: #11579C;
+    color: var(--links-color);
 }
 .home_hero {
     display: flex;
@@ -60,7 +61,7 @@
         display: flex;
     }
     .staff_member .archive__item-excerpt {
-        border-left: 1px solid var(--color);
+        border-left: 1px solid var(--border-color);
         margin-left: 50px;
         padding-left: 50px;
     }
