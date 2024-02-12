@@ -2,6 +2,46 @@
     --border-color: #0f477e;
     --links-color: #10508E;
     --circle: 150px;
+    --header-footer: #d2e4f7;
+    --content: #e8f1fb;
+}
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Playfair+Display+SC&display=swap');
+* {
+    font-family: 'Alegreya', serif;
+}
+html {
+    background-color: var(--content);
+}
+.masthead, #site-nav, .page-title, .page__footer {
+    background-color: var(--header-footer);
+}
+#main {
+    margin: 0;
+    padding: 0;
+}
+#main .feature__wrapper {
+    padding: 0 1em;
+    margin: 0 auto;
+}
+.page-title {
+    margin-bottom: 2vw;
+}
+.page-title h1 {
+    margin: 2vw 0;
+    font-weight: 700;
+}
+@media (min-width: 80em) {
+    #main {
+        max-width: none;
+    }
+    #main .feature__wrapper {
+        padding: 0 1em;
+        margin: 0 auto;
+        max-width: 1280px;
+    }
+}
+.page__hero--overlay {
+    margin: 0;
 }
 .greedy-nav a, .text a, a{
     color: var(--links-color);
@@ -36,8 +76,18 @@
     text-align: center;
     font-weight: bold;
 }
-.staff_member {
-    margin-bottom: 50px;
+.staff_member, .content-container {
+    padding: 1.5vw;
+    border-radius: 2vw;
+    border: 1px solid #D6E6F8;
+    background-color: #DDEBF9;
+    margin-bottom: 4vw;
+}
+.content-container h2 {
+    margin-top: 0;
+}
+.staff_member .archive__item-title {
+    margin-top: 0;
 }
 .staff_member .staff_avatar .circle {
     margin: 0 auto 15px;
@@ -108,5 +158,6 @@
     height: 20vw;
     max-height: 330px;
     min-height: 100px;
+    margin-bottom: 2vw;
 }
 @media (min-width: 0em) { .feature__item--center { text-align: center; }}
