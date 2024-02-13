@@ -3,14 +3,16 @@
     --links-color: #10508E;
     --circle: 150px;
     --header-footer: #d2e4f7;
-    --content: #e8f1fb;
+    --background-color: #e8f1fb;
+    --content: #DDEBF9;
+    --border-content: #D6E6F8;
 }
 @import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Playfair+Display+SC&display=swap');
 * {
     font-family: 'Alegreya', serif;
 }
 html {
-    background-color: var(--content);
+    background-color: var(--background-color);
 }
 .masthead, #site-nav, .page-title, .page__footer {
     background-color: var(--header-footer);
@@ -79,8 +81,8 @@ html {
 .staff_member, .content-container {
     padding: 1.5vw;
     border-radius: 2vw;
-    border: 1px solid #D6E6F8;
-    background-color: #DDEBF9;
+    border: 1px solid var(--border-content);
+    background-color: var(--content);
     margin-bottom: 4vw;
 }
 .content-container h2 {
@@ -160,4 +162,22 @@ html {
     min-height: 100px;
     margin-bottom: 2vw;
 }
+#scroll-to-top {
+    z-index: 2;
+    position: fixed;
+    display: none;
+    bottom: 10px;
+    right: 10px;
+    background-color: var(--header-footer);
+    width: 2vw;
+    height: 2vw;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 1vw;
+    opacity: 0.7;
+}
+#scroll-to-top:hover {
+    background-color: white;
+}
+  
 @media (min-width: 0em) { .feature__item--center { text-align: center; }}
