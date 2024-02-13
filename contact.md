@@ -14,11 +14,11 @@ intro:
   <h1>Contact Form</h1>
   <div id="contact-form">
     <form action="https://api.web3forms.com/submit" onsubmit="sendForm()" method="POST">
-      <input type="hidden" name="subject" value="ElemWave Contact Form">
+      <input type="hidden" name="subject" id="form-subject">
       <input type="hidden" name="access_key" value="{{ site.contact_form_key }}">
       <input type="hidden" name="redirect" id="form-redirect">
       <input type="checkbox" name="botcheck" style="display: none;">
-      <input type="text" name="Name" id="name" placeholder="Name(required)" required>
+      <input type="text" name="Name" id="form-name" placeholder="Name(required)" required>
       <input type="email" name="Email" placeholder="Email(required)" required><br>
       <textarea name="message" placeholder="Message(required)" required></textarea>
       <div class="h-captcha" data-callback="hcaptchaCallback" data-captcha="true"></div>
