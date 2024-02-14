@@ -26,9 +26,7 @@
             input, textarea {
                 background-color: white;
             }
-            input {
-                width: 49.2%;
-            }
+
             textarea {
                 resize: none;
                 height: 20vh;
@@ -51,5 +49,10 @@
                 }
             }
         }
+    }
+}
+@media (min-width: 768px) {
+    #contact-form form input{
+        width: 49.2%;
     }
 }
