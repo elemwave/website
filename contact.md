@@ -10,7 +10,7 @@ intro:
 
 {% include feature_row id="intro" type="center" %}
 <div class="feature__wrapper contact_page">
-  <!--<p>You can contact with us sending an email to: <a href="mailto:{{ site.email }}" target="_blank">{{ site.email }}</a> or by filling out the form below</p>-->
+  <link rel="stylesheet" href="/assets/css/contact_form.css">
   <h1>Contact Form</h1>
   <div id="contact-form">
     <form action="https://api.web3forms.com/submit" onsubmit="sendForm()" method="POST">
