@@ -1,3 +1,4 @@
+<!--This file comes from minimal-mistakes repository, to check what files are downloaded from the original repository check at Docs/original-files-from-theme-repository.md -->
 {% if include.id %}
   {% assign feature_row = page[include.id] %}
 {% else %}

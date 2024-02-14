@@ -7,11 +7,11 @@ function scrollToTop() {
     document.documentElement.scrollTop = 0;
 }
 function scrollFunction() {
-  var test = document.getElementById("scroll-to-top");
+  var scrollButton = document.getElementById("scroll-to-top");
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    test.style.display = "block";
+    scrollButton.style.display = "block";
   } else {
-    test.style.display = "none";
+    scrollButton.style.display = "none";
   }
 }
   
