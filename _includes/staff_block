@@ -3,9 +3,9 @@
 <div class="feature__wrapper">
     {% for member in page.staff %}
     <div class="staff_member">
-        <h3 class="archive__item-title">
+        <h2 class="archive__item-title">
             {{ member.name }}
-        </h3>
+        </h2>
         <div class="staff_body">
             <div class="staff_avatar">
                 <div class="circle" style="background-image: url('{{ member.image_path | relative_url }}')">
