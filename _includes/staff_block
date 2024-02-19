@@ -1,5 +1,5 @@
 <!-- https://github.com/mmistakes/minimal-mistakes/blob/master/_includes/feature_row -->
-
+<link rel="stylesheet" href="./assets/css/staff-member.css">
 <div class="feature__wrapper">
     {% for member in page.staff %}
     <div class="staff_member">
