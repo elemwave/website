@@ -1,9 +1,7 @@
 main:
-  - title: "Services"
-    url: '/services.html'
-  - title: "Previous projects"
-    url: '/previous-projects.html'
+  - title: "Home"
+    url: '/'
   - title: "About us"
-    url: '/index.html'
+    url: '/about'
   - title: "Contact us"
-    url: '#contact'
+    url: '/about#contact'
