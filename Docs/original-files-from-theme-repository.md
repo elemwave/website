@@ -3,6 +3,15 @@
 ## Folder _includes
 
 1. `File:` feature_row `Rep_version: 4.24.0`
+2. `File:` head.html `Rep_Version : 4.24.0`
+
+## Folder _sass
+
+1. `File:` minimal-mistakes.scss `Rep_Version : 4.24.0`
+
+## Folder assets/css
+
+1. `File:` main.scss `Rep_Version : 4.24.0`
 
 ## Folder _layouts
 
