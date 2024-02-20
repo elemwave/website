@@ -12,6 +12,7 @@ intro:
 
 {% include feature_row id="intro" type="center" %}
 <div class="feature__wrapper">
+  <h1 class="subtitle">Services</h1>
   <div class="content-container">
     <h2> Computational Electromagnetics </h2>
     <p> Elemwave specializes in computational electromagnetics, translating the physical problem into a software solution. We can develop custom solutions for highly demanding problems in which traditional commercial software fails. We can also facilitate the integration of existing software tools into CAD software, facilitating its use and reducing the training required by engineers.</p>
@@ -20,6 +21,7 @@ intro:
     <h2> EM, EMC & RF Engineering </h2>
     <p> We can provide solutions for electromagnetic (EM), electromagnetic compatibility (EMC), and radiofrequency (RF) problems. We perform a holistic approach which deviates from standard specialized solutions. This includes the identification of the relevant parameters, the modeling of the problem, and proposing solutions to overcome them.</p>
   </div>
+  <h1 class="subtitle">Previous Projects</h1>
   <div class="content-container">
     <h2 name="project1">Elemwave workbench</h2>
     <p class="text">Elemwave has developed a propietary tool, the workbench, to help with the definition of electromagnetic problems. Currently it integrates a CAD program, meshers, and different solvers. The tool can be easily extended to include other solvers and has scripting capabilities to automatize some procedures.
