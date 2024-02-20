@@ -1,11 +1,11 @@
 ---
 layout: splash
-permalink: /about.html
+permalink: /team.html
 header:  
     video: /assets/images/waves.mp4
     overlay_color: "rgba(63, 108, 152, 1)"
 intro:
-  - excerpt: "About us"
+  - excerpt: "Team"
 staff:
   - image_path: /assets/images/staff/salvador_garcia.webp
     name: "Salvador G. García"
@@ -38,13 +38,3 @@ staff:
 
 {% include feature_row id="intro" type="center" %}
 {% include staff_block %}
-
-<div id="contact" class="text-center"> 
-    <div style="width: 250px; margin: 0 auto 30px">
-        <img src="assets/logo/elemwave.webp" alt="{{ site.company }}" title="{{ site.company }}">
-    </div>
-    <div>{{ site.address }}</div>
-    <div>{{ site.cp }} - {{ site.city }} (<span>{{ site.country }}</span>)</div>
-    <div>Tel. <a href="tel:{{ site.phone }}" target="_blank" rel="nofollow noreferrer">{{ site.phone }}</a></div>
-    <a href="mailto:{{ site.email }}" target="_blank" rel="nofollow noreferrer">{{ site.email }}</a>
-</div>
