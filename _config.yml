@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Elemwave
+title: Elemwave - CEM and EMC solutions.
 
 company: Elemwave S.L.
 cif: B06913164
@@ -33,7 +33,8 @@ header_content:
   video: /assets/images/waves.mp4
 
 copyright_year: 2021
-description: Elemwave specialises in electromagnetic simulations
+description: Elemwave  mission is developing computational electromagnetics (CEM) software with special focus on electromagnetic compatibility (EMC) applications.
+summary_description: Elemwave specialises in electromagnetic simulations
 logo: /assets/logo/elemwave.webp
 
 permalink: /blog/:year/:month/:day/:title
