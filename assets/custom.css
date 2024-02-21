@@ -7,9 +7,8 @@
     --content: #DDEBF9;
     --border-content: #D6E6F8;
 }
-@import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Playfair+Display+SC&display=swap');
 h1, h2, h3, h4, h5 {
-    font-family: 'Alegreya', serif !important;
+    font-family: serif !important;
 }
 html {
     background-color: var(--background-color);
@@ -46,7 +45,7 @@ html {
 .page__hero--overlay {
     margin: 0;
 }
-.greedy-nav a, .text a, a{
+.greedy-nav a, .text a, a {
     color: var(--links-color);
 }
 .home_hero {
@@ -93,7 +92,7 @@ html {
 .content-container h2, .staff_member .archive__item-title {
     margin-top: 0;
 }
-.text{
+.text {
     margin-top: 20px;
     a:hover {
         color: blue;
