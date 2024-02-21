@@ -28,6 +28,9 @@ city: Granada
 country: Spain
 phone: +44 203 289 1024
 email: info@elemwave.com
+header_content: 
+  background_color: rgba(63, 108, 152, 1)
+  video: /assets/images/waves.mp4
 
 copyright_year: 2021
 description: Elemwave specialises in electromagnetic simulations

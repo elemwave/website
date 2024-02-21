@@ -1,9 +1,6 @@
 ---
 layout: splash
 permalink: /team.html
-header:  
-    video: /assets/images/waves.mp4
-    overlay_color: "rgba(63, 108, 152, 1)"
 intro:
   - excerpt: "Team"
 staff:

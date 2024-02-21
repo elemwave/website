@@ -3,3 +3,7 @@
 ## Folder _includes
 
 1. `File:` feature_row `Rep_version: 4.24.0`
+
+## Folder _layouts
+
+1. `File:` splash.html `Rep_version: 4.24.0`

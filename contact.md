@@ -3,17 +3,15 @@ sidebar:
 nav: "docs"
 permalink: /contact.html
 layout: splash
-header:  
-    video: /assets/images/waves.mp4
-    overlay_color: "rgba(63, 108, 152, 1)"
 intro:
   - excerpt: "Contact"
 ---
 
 {% include feature_row id="intro" type="center" %}
+<link rel="stylesheet" href="./assets/css/contact.css">
 <div class="feature__wrapper">
   <div id="contact" class="content-container text-center"> 
-      <div style="width: 250px; margin: 0 auto 30px">
+      <div id="contact-logo">
           <img src="assets/logo/elemwave.webp" alt="{{ site.company }}" title="{{ site.company }}">
       </div>
       <div>{{ site.address }}</div>
