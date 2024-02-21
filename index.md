@@ -3,9 +3,6 @@ sidebar:
 nav: "docs"
 permalink: /index.html
 layout: splash
-header:  
-    video: /assets/images/waves.mp4
-    overlay_color: "rgba(63, 108, 152, 1)"
 intro:
   - excerpt: "Home"
 ---
