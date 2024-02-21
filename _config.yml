@@ -54,7 +54,11 @@ plugins:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-include: "_pages"
+include: 
+  - "_pages"
+
+github: [metadata]
+
 exclude:
   - Gemfile
   - Gemfile.lock
