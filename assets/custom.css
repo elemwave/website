@@ -6,6 +6,7 @@
     --background-color: #E8F1FB;
     --content: #DDEBF9;
     --border-content: #D6E6F8;
+    --margin-staff-member: 50px;
 }
 h1, h2, h3, h4, h5 {
     font-family: serif !important;
