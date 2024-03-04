@@ -1,5 +1,5 @@
 .staff_member {
-    margin-bottom: 50px;
+    margin-bottom: var(--margin-staff-member);
     .staff_avatar .circle {
         margin: 0 auto 15px;
         height: var(--circle);
@@ -20,19 +20,21 @@
 }
 
 @media (min-width: 768px) {
-    .staff_member .staff_body {
-        display: flex;
-    }
-    .staff_member .archive__item-excerpt {
-        border-left: 1px solid var(--border-color);
-        margin-left: 50px;
-        padding-left: 50px;
-    }
-    .staff_member .archive__item-title {
-        margin-left: var(--circle);
-        text-align: left;
-    }
-    .staff_member .staff_avatar .circle {
-        margin: 0;
+    .staff_member {
+        .staff_body {
+            display: flex;
+        }
+        .archive__item-excerpt {
+            border-left: 1px solid var(--border-color);
+            margin-left: var(--margin-staff-member);
+            padding-left: var(--margin-staff-member);
+        }
+        .archive__item-title {
+            margin-left: var(--circle);
+            text-align: left;
+        }
+        .staff_avatar .circle {
+            margin: 0;
+        }
     }
 }
