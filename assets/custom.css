@@ -29,7 +29,7 @@ html {
 .page-title {
     margin-bottom: 2vw;
     h1 {
-        margin: 2vw 0;
+        margin: 1vw 0;
         font-weight: 700;
     }
 }
@@ -92,6 +92,10 @@ html {
 }
 .content-container h2, .staff_member .archive__item-title {
     margin-top: 0;
+    padding: 0;
+}
+.content-container p {
+    margin: 0;
 }
 .text {
     margin-top: 20px;
