@@ -8,6 +8,7 @@ intro:
 ---
 
 {% include feature_row id="intro" type="center" %}
+<link rel="stylesheet" href="./assets/css/prev-projects.css">
 <div class="feature__wrapper">
   <h1 class="subtitle">Services</h1>
   <div class="content-container">
@@ -24,7 +25,7 @@ intro:
     <p class="text">The 3D-FDTD workbench is a <a href="https://www.freecad.org/" target="_blank">FreeCAD</a> plugin which can be used to define electromagnetic problems based on the finite differences in time domain (FDTD) method.
     While it currently integrates meshers and <a href="https://github.com/opensemba/fdtd" target="_blank">electromagnetic solvers</a> from <a href="https://github.com/opensemba" target="_blank">OpenSEMBA</a> and privative solvers developed by <a href="https://www.airbus.com/en" target="_blank">Airbus</a>, the tool can also be extended to include other solvers and has scripting capabilities to automatize some procedures.
     </p>
-    <div class="">
+    <div>
         <img class="img-pr" src="assets/images/grid.webp" alt="Elemwave workbench grid definition"/>
         <br>
         <div class="img-cap"> View of a grid definition for an FDTD problem.</div>
