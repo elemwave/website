@@ -1,20 +1,22 @@
 <!-- https://github.com/mmistakes/minimal-mistakes/blob/master/_includes/feature_row -->
 <link rel="stylesheet" href="./assets/css/staff-member.css">
 <div class="feature__wrapper">
-    {% for member in page.staff %}
-    <div class="staff_member">
-        <h2 class="archive__item-title">
-            {{ member.name }}
-        </h2>
-        <div class="staff_body">
-            <div class="staff_avatar">
-                <div class="circle" style="background-image: url('{{ member.image_path | relative_url }}')">
+    <div class="columns">
+        {% for member in page.staff %}
+        <div class="staff_member">
+            <h2 class="archive__item-title">
+                {{ member.name }}
+            </h2>
+            <div class="staff_body">
+                <div class="staff_avatar">
+                    <div class="circle" style="background-image: url('{{ member.image_path | relative_url }}')">
+                    </div>
+                </div>
+                <div class="archive__item-excerpt">
+                    {{ member.description }}
                 </div>
             </div>
-            <div class="archive__item-excerpt">
-                {{ member.description }}
-            </div>
         </div>
+        {% endfor %}
     </div>
-    {% endfor %}
 </div>
