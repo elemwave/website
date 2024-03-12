@@ -14,6 +14,9 @@ h1, h2, h3, h4, h5 {
 html {
     background-color: var(--background-color);
 }
+p {
+    text-align: justify;
+}
 .masthead, #site-nav, .page-title, .page__footer {
     background-color: var(--header-footer);
     color: var(--links-color);
@@ -24,6 +27,9 @@ html {
     .feature__wrapper {
         padding: 0 1em;
         margin: 0 auto;
+        &.full_page {
+            max-width: 1280px;
+        }
     }
 }
 .page-title {
@@ -39,7 +45,6 @@ html {
         .feature__wrapper {
             padding: 0 1em;
             margin: 0 auto;
-            max-width: 1280px;
         }
     }
 }
@@ -84,18 +89,29 @@ html {
     border-bottom: 2px solid var(--border-color);
 }
 .staff_member, .content-container {
-    padding: 1.5vw;
+    padding: 2vw 4vw;
     border-radius: 2vw;
     border: 1px solid var(--border-content);
     background-color: var(--content);
-    margin-bottom: 4vw;
+    margin-bottom: 2vw;
 }
 .content-container h2, .staff_member .archive__item-title {
     margin-top: 0;
     padding: 0;
 }
-.content-container p {
-    margin: 0;
+.content-container {
+    p {
+        margin: 0;
+        word-spacing: 3px;
+    }
+    img:first-of-type {
+        margin-top: 1.5vw;
+    }
+}
+.columns {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 1vw;
 }
 .text {
     margin-top: 20px;
@@ -122,5 +138,9 @@ html {
         background-color: white;
     }
 }
-  
+@media (max-width: 1024px) {
+    .columns {
+        display: block !important;
+    }
+}
 @media (min-width: 0em) { .feature__item--center { text-align: center; }}

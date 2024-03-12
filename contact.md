@@ -9,7 +9,7 @@ intro:
 
 {% include feature_row id="intro" type="center" %}
 <link rel="stylesheet" href="./assets/css/contact.css">
-<div class="feature__wrapper">
+<div class="feature__wrapper full_page">
   <div id="contact" class="content-container text-center"> 
       <div id="contact-logo">
           <img src="assets/logo/elemwave.webp" alt="{{ site.company }}" title="{{ site.company }}">
