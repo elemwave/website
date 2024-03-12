@@ -140,7 +140,7 @@ p {
 }
 @media (max-width: 1024px) {
     .columns {
-        display: block !important;
+        grid-template-columns: auto;
     }
 }
 @media (min-width: 0em) { .feature__item--center { text-align: center; }}
