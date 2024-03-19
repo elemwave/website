@@ -4,7 +4,7 @@ nav: "docs"
 permalink: /index.html
 layout: splash
 intro:
-  - excerpt: "Home"
+  - excerpt: "Overview"
 ---
 
 {% include feature_row id="intro" type="center" %}
@@ -13,8 +13,8 @@ intro:
   <h2 class="subtitle">Services</h2>
   <div class="columns">
     <div class="content-container">
-      <h3> Computational Electromagnetics </h3>
-      <p> Elemwave specializes in computational electromagnetics, translating the physical problem into a software solution. We can develop custom solutions for highly demanding problems in which traditional commercial software fails. We can also facilitate the integration of existing software tools into CAD software, facilitating its use and reducing the training required by engineers.</p>
+      <h3> Computational Electromagnetics (CEM)</h3>
+      <p> Elemwave specializes in computational electromagnetics (CEM), translating the physical problem into a software solution. We can develop custom solutions for highly demanding problems in which traditional commercial software fails. We can also facilitate the integration of existing software tools into CAD software, facilitating its use and reducing the training required by engineers.</p>
     </div>
     <div class="content-container">
       <h3> EM, EMC & RF Engineering </h3>

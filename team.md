@@ -2,7 +2,7 @@
 layout: splash
 permalink: /team.html
 intro:
-  - excerpt: "Team"
+  - excerpt: "Elemwave's Team"
 staff:
   - image_path: /assets/images/staff/salvador_garcia.webp
     name: "Salvador G. García"
