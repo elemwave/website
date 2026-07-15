@@ -1,7 +1,0 @@
-main:
-  - title: "Home"
-    url: '/'
-  - title: "Team"
-    url: '/team'
-  - title: "Contact"
-    url: '/contact'
