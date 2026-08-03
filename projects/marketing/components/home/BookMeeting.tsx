@@ -1,4 +1,5 @@
-import { PillButton } from "./PillButton";
+import { BookingTrigger } from "@/components/booking/BookingTrigger";
+import { pillButtonClassName } from "./PillButton";
 
 /** "Book a Meeting" gradient call-to-action panel. */
 export function BookMeeting() {
@@ -32,13 +33,11 @@ export function BookMeeting() {
             Schedule a technical discussion with our team to explore
             collaboration opportunities
           </p>
-          <PillButton
-            href="#book"
-            size="sm"
-            className="mt-4 px-[34px] py-4 text-base tracking-[2px]"
+          <BookingTrigger
+            className={`${pillButtonClassName("sm")} mt-4 px-[34px] py-4 text-base tracking-[2px]`}
           >
             Schedule a Call
-          </PillButton>
+          </BookingTrigger>
         </div>
       </div>
     </section>

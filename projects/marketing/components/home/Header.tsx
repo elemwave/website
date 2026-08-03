@@ -1,5 +1,6 @@
 import { LOGO_URL } from "@/lib/home-content";
-import { PillButton } from "./PillButton";
+import { BookingTrigger } from "@/components/booking/BookingTrigger";
+import { pillButtonClassName } from "./PillButton";
 
 /** Top navigation: logo + "Schedule a call" action, over the dark band. */
 export function Header() {
@@ -21,12 +22,11 @@ export function Header() {
           className="block h-[clamp(44px,7vw,64px)] w-auto"
         />
       </a>
-      <PillButton
-        href="#book"
-        className="relative whitespace-nowrap px-[clamp(16px,2.5vw,24px)] py-3 text-sm tracking-[0.3px]"
+      <BookingTrigger
+        className={`${pillButtonClassName("pill")} relative whitespace-nowrap px-[clamp(16px,2.5vw,24px)] py-3 text-sm tracking-[0.3px]`}
       >
         Schedule a call
-      </PillButton>
+      </BookingTrigger>
     </header>
   );
 }
