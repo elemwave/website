@@ -1,6 +1,6 @@
+// primary_color mirrors --color-navy-700 (specs/ui/style-guide.md).
 export const CALENDLY_URL =
-  "https://calendly.com/elemwave/technical-discussion";
+  "https://calendly.com/marina-munoz-aircury?primary_color=122949";
 
-export const CODE_LENGTH = 6;
-export const CODE_TTL_MS = 10 * 60 * 1000;
-export const MAX_ATTEMPTS = 3;
+export const CALENDLY_WIDGET_SRC =
+  "https://assets.calendly.com/assets/external/widget.js";
